@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+body, p, ul, li {
+  font-size: .9em;
+  font-family: helvetica, sans-serif;
+  color: #666;
+}
+
+.room {
+  color: orange;
+  font-size: 1.2em;
+  font-weight: bold;
+}

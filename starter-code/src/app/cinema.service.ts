@@ -111,14 +111,10 @@ export class CinemaService {
   ];
 
   getMovies(){
-    //retun all movies
-    console.log(this.movies);
     return this.movies;
   }
 
   getMovie(id){
-    //return the movie with the received id
-    console.log(this.movies[id]);
-    return this.movies[id];
+    return this.movies[id-1] ;
   }
 }

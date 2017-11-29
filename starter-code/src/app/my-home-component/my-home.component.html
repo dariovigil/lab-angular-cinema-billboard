@@ -1,0 +1,7 @@
+<div>
+  <div class="movie" *ngFor="let movie of allMovies">
+    <p class="room">Room: {{ movie.room }}</p>
+    <p>{{ movie.title }}</p>
+    <a [routerLink]="['/movie', movie.id]"><img src="{{ movie.poster }}"/></a>
+  </div>
+</div>
